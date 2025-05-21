@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { createTodo, getTodos, getTodoById, updateTodo, deleteTodo} from '../controllers/to-do.controller'
+import { createTodo, getTodos, getTodoById, updateTodo, deleteTodo} from '../controllers/todo.controller'
 import { authenticate } from '../middleware/authMiddleware'
 const router = Router()
 

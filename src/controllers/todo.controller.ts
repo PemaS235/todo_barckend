@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import Todo from '../models/to-do.model'
+import Todo from '../models/todo.model'
 
 // Create a new Todo
 export const createTodo = async (req: Request, res: Response): Promise<void> => {

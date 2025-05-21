@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 
 import cors from 'cors'
 import authRoutes from './routes/auth.route'
-import todoRoutes from './routes/to-do.route'
+import todoRoutes from './routes/todo.route'
 //  Load environment variables
 dotenv.config()
     
